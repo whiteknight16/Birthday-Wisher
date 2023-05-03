@@ -2,8 +2,8 @@ import smtplib
 from datetime import datetime as dt
 import random
 import pandas as pd
-my_mail="testertest.oppp@gmail.com"
-password="bdraxulclcwnkhoo"
+my_mail="your email"
+password="your application password"
 
 file=pd.read_csv("./birthday.csv")
 data=pd.DataFrame(file).set_index("name")
